@@ -10,9 +10,4 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
     }
-
-    fun onTextViewClicked(view: View) {
-        val intent = Intent(this, SecondActivity::class.java)
-        startActivity(intent)
-    }
 }
